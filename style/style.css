@@ -65,7 +65,7 @@
 }
 
 /* font related code ends here */
-.btnPrimary{
+.btnPrimary {
     background-color: #26425E;
     color: white;
     font-size: large;
@@ -73,11 +73,13 @@
     border-radius: 25px;
 
 }
-.btnPrimary:hover{
+
+.btnPrimary:hover {
     font-size: x-large;
     color: black;
     background-color: #E5C9D7;
 }
+
 /* shared style ends here */
 
 span {
@@ -88,78 +90,106 @@ span {
 header {
     padding: 30px 70px;
 }
-.navigation{
+
+.navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navigation > ul{
+.navigation>ul {
     display: flex;
     list-style: none;
     align-items: center;
-    
+
 }
-li > a{
+
+li>a {
     text-decoration: none;
     margin-left: 35px;
 }
 
-li > img{
+li>img {
     margin-left: 35px;
 }
 
-a:hover{
+a:hover {
     font-size: 1.5em;
     color: #C48CB3;
-    text-decoration:wavy;
+    text-decoration: wavy;
 }
-.logoHead{
+
+.logoHead {
     font-size: 1.5em;
 }
 
-.banDiv1H1{
+.banDiv1H1 {
     font-size: 2.5rem;
 
 }
-.banDiv1{
-    max-width: 685px;
-    padding-left: 20px;
+
+.banDiv1 {
+    width: 500px;
+    padding-left: 30px;
 }
-.banDiv2{
-    padding-left: 70px;
+
+.banDiv2 {
+    padding-left: 190px;
     max-width: 685px;
 }
 
 
-.banner{
+.banner {
     margin-top: 50px;
     display: flex;
     align-items: center;
 }
 
 /* Header Styles ends here*/
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logoContainer {
+    margin-left: 85px;
+}
 
 
+.SponsorImg {
+    padding-right: 75px;
 
-@media screen  and (max-width: 576px) {
-    header{
+}
+
+
+/* sponsor styles ends here */
+
+@media screen and (max-width: 576px) {
+    header {
         padding: 20px;
     }
-    .navigation{
+
+    .navigation {
         flex-direction: column;
-        
+
     }
-    .navigation > ul{
+
+    .navigation>ul {
         flex-direction: column;
-       justify-content: center;
-       padding-left: 0;
-       padding-right: 0;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
     }
-    .banner{
+
+    .banner {
         padding: 5px 0;
         flex-direction: column-reverse;
     }
+    .SponsorImg {
+        padding-right: 15px;
     
+    }
+
 }
+
 /* responsive style ends here */
